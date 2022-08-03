@@ -1,38 +1,156 @@
+body {
+  background-color: rgba(168, 152, 152, 0.301);
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
+  align-items: center;
   background-color: #282c34;
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  margin: 3px;
+  padding: 3px 7px;
+  text-shadow: rgb(0, 86, 92);
+  background-color: azure ;
+  font-size: small;
+  width: 150px;
+  align-self: center;
+}
+button:hover {
+  background-color: rgb(190, 190, 190);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  margin: 3px;
+  padding: 3px 7px;
+  margin-bottom: 10px;
+}
+
+
+.Home {
+  margin: 10px;
+}
+
+.HomeSearch {
+  width: 60%;
+  margin: auto;
+}
+
+.CategoriesBar {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  align-items: flex-start;
+}
+
+.cartLink {
+  float: right;
+  margin-right: 60px;
+}
+
+.cartIcon {
+  display: flex;
+  float: right; 
+  margin-top: 2%;
+  padding: 2px;
+  margin-right: -100px;
+}
+
+.cartIcon p {
+  margin-top: -1px;
+  margin-left: 5px;
+}
+
+.Products {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  height: 250px;
+}
+
+.Products button {
+  margin-left: 65%;
+  margin-top: 90px;
+}
+
+.Products img {
+  width: 150px;
+  margin: 20px;
+}
+
+.Products p {
+  margin-left: 200px;
+  margin-top: -96px;
+  width: 50%;
+  padding: 5px;
+}
+
+.productsDetailsPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.productsDetailsPage img {
+  width: 200px;
+  margin: 20px;
+  align-self: center;
+}
+
+.productsLink {
+  margin: 5px;
+  padding: 5px;
+}
+
+.productsDetailsPage button {
+  margin: 3px;
+  padding: 3px 7px;
+  text-shadow: rgb(0, 86, 92);
+  background-color: azure ;
+  font-size: small;
+  width: 150px;
+  align-self: center;
+}
+
+.productsDetailsPage button:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+.formsAvaliation {
+  display: flex;
+  margin-left: 45%;
+  align-items: center;
+  /* border: 1px black solid; */
+  width: 50%;
+  height: 100px;
+}
+
+.formsAvaliation label {
+  margin: 3px;
+  padding: 3px 7px;
+  margin-bottom: 10px;
+}
+
+.formsAvaliation select {
+  margin: 3px;
+  padding: 3px 7px;
+  margin-bottom: 10px;
+}
+
+.formsAvaliation label input {
+  /* border: 1px solid green; */
+  margin: 10px;
+}
+
+.formsAvaliation label textarea {
+  /* border: 1px solid green; */
+  margin: 10px;
 }
